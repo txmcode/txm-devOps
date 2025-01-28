@@ -40,12 +40,12 @@ This Spring Boot web application is a fully functional CRUD (Create, Read, Updat
 
 Clone the repository:
 ```bash
-git clone https://github.com/shivamverma26/Spring-Boot-CRUD.git
+git clone https://github.com/Jesusorlando/spring-crud.git
 ```
 # Setup and Installation
 
-1. **Configure MySQL database settings** in `application.properties`.
-2. **Build and run the application** using Maven or your preferred IDE.
+1. **Configure MySQL database settings** in `application.properties`. add your ip and credentials
+2. **Build and run the application** using Maven or your preferred IDE. mvn clean install
 
 # Usage
 
@@ -59,16 +59,10 @@ Contributions are welcome! Open an issue or submit a pull request.
 
 # License
 
-This project is licensed under the MIT License. By contributing, you agree to abide by the terms of this license.
+This project is licensed under the TXM License. By contributing, you agree to abide by the terms of this license.
 
 # Acknowledgements
 
+- This project was created by Orlando Alvarado.
 - Inspired by the need for a simple CRUD application with pagination and sorting capabilities.
 - Thanks to the contributors and the open-source community for their valuable feature and resources.
-
-# Additional Resources
-
-- [Spring Boot Tutorial for Beginners](https://www.youtube.com/watch?v=vtPkZShrvXQ)
-- [Spring Boot Official Documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/index.html)
-- [Thymeleaf Crash Course](https://www.youtube.com/watch?v=6ohjNhnjYxA)
-- [Hibernate Tutorial for Beginners](https://www.youtube.com/watch?v=JR7-EdxDSf0)
