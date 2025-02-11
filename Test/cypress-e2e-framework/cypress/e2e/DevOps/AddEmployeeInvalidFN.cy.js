@@ -1,7 +1,7 @@
 describe('Add Employee with invalid First Name Test', () => {
   it('should click on Add Employee button, fill out the form and save the employee', () => {
     // Abre la página de la aplicación
-    cy.visit('http://localhost:9090')  
+    cy.visit('http://10.1.3.80:9090')
 
     // Haz clic en el botón "Add Employee"
     cy.contains('Add Employee').click(); 
