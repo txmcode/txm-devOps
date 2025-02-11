@@ -1,7 +1,7 @@
 describe('Update Employee Test', () => {
   it('should click on Update button, fill out the form and save the employee', () => {
     // Abre la página de la aplicación
-    cy.visit('http://10.1.3.80:9090')  
+    cy.visit(Cypress.env('GUI'))
 
     // Busca el campo que quieres editar y Hacer clic en el botón "Update"
     cy.get('table').find('tr').each(($row) => {

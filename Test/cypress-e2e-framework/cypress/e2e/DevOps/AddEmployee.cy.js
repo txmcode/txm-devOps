@@ -1,7 +1,7 @@
 describe('Add Employee Test', () => {
   it('should click on Add Employee button, fill out the form and save the employee', () => {
     // Abre la página de la aplicación
-    cy.visit('http://10.1.3.80:9090')
+    cy.visit(Cypress.env('GUI'))
 
     // Haz clic en el botón "Add Employee"
     cy.contains('Add Employee').click(); 
