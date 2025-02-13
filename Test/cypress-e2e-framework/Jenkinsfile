@@ -2,7 +2,7 @@ pipeline{
     agent any
       
     parameters{
-        string(name: "SPEC", defaultValue: "cypress/**/**", description: "Ejecuta todos los casos de prueba")
+        string(name: "SPEC", defaultValue: "/Test/cypress-e2e-framework/cypress/**/**", description: "Ejecuta todos los casos de prueba")
         choice(name: "BROWSER", choices: ['chrome', 'edge', 'firefox']), description: "Eliga un browser para las pruebas"
     }
     options{
