@@ -19,22 +19,22 @@ describe('Update Employee Test', () => {
     // Rellena los campos con los datos del empleado
     cy.get('input[name="firstName"]')  
       .clear() // Limpia el campo anterior
-      .type('Ken'); // Escribe el nuevo valor
+      .type('John updated'); // Escribe el nuevo valor
     
     cy.get('input[name="lastName"]')
       .clear() // Limpia el campo anterior
-      .type('Miller'); // Escribe el nuevo valor
+      .type('Smith updated'); // Escribe el nuevo valor
     
     cy.get('input[name="email"]')
       .clear() // Limpia el campo anterior
-      .type('ken.miller@example.com'); // Escribe el nuevo valor
+      .type('john.smith.updated@example.com'); // Escribe el nuevo valor
 
     // Haz clic en el botón "Save Employee"
     cy.get('.btn').click();
 
     // Verifica que la operación fue exitosa
-    cy.contains('Ken').should('be.visible'); 
-    cy.contains('Miller').should('be.visible'); 
-    cy.contains('ken.miller@example.com').should('be.visible'); 
+    cy.contains('John updated').should('be.visible'); 
+    cy.contains('Smith updated').should('be.visible'); 
+    cy.contains('john.smith.updated@example.com').should('be.visible'); 
   });
 });

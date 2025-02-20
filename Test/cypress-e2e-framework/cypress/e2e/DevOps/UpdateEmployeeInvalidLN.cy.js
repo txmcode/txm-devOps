@@ -7,7 +7,7 @@ describe('Update Employee with invalid Last Name Test', () => {
     cy.get('table').find('tr').each(($row) => {
       const emailCell = $row.find('td').eq(2);
 
-      if (emailCell.text().trim() === 'ken.miller@example.com') {
+      if (emailCell.text().trim() === 'john.smith.updated@example.com') {
         // Buscar el botón "Update" en la misma fila
         const button=cy.wrap($row)  // Envolvemos la fila actual en un objeto Cypress
             .contains('Update')  // Filtramos el botón que contiene el texto "Update"
