@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 /home/orlando/Desktop/txm-devOps/src/main/java/crud/springboot/repository/EmployeeRepository.java
 /home/orlando/Desktop/txm-devOps/src/main/java/crud/springboot/SpringbootThymeleafCrudWebAppApplication.java
 /home/orlando/Desktop/txm-devOps/src/main/java/crud/springboot/controller/EmployeeController.java
 /home/orlando/Desktop/txm-devOps/src/main/java/crud/springboot/model/Employee.java
 /home/orlando/Desktop/txm-devOps/src/main/java/crud/springboot/service/EmployeeServiceImpl.java
 /home/orlando/Desktop/txm-devOps/src/main/java/crud/springboot/service/EmployeeService.java
+=======
+C:\Users\orlan\Desktop\txm-devOps\src\main\java\crud\springboot\model\Employee.java
+C:\Users\orlan\Desktop\txm-devOps\src\main\java\crud\springboot\service\EmployeeServiceImpl.java
+C:\Users\orlan\Desktop\txm-devOps\src\main\java\crud\springboot\service\EmployeeService.java
+C:\Users\orlan\Desktop\txm-devOps\src\main\java\crud\springboot\controller\EmployeeController.java
+C:\Users\orlan\Desktop\txm-devOps\src\main\java\crud\springboot\SpringbootThymeleafCrudWebAppApplication.java
+C:\Users\orlan\Desktop\txm-devOps\src\main\java\crud\springboot\repository\EmployeeRepository.java
+>>>>>>> 67d9471 (add s employees)
